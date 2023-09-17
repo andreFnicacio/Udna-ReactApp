@@ -1,0 +1,55 @@
+{
+    "prd": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-udna-backend-prd-143138-authRole",
+            "UnauthRoleArn": "arn:aws:iam::959706618901:role/amplify-udna-backend-prd-143138-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::959706618901:role/amplify-udna-backend-prd-143138-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-udna-backend-prd-143138-deployment",
+            "UnauthRoleName": "amplify-udna-backend-prd-143138-unauthRole",
+            "StackName": "amplify-udna-backend-prd-143138",
+            "StackId": "arn:aws:cloudformation:us-east-1:959706618901:stack/amplify-udna-backend-prd-143138/9d6d0680-5cb7-11ea-aebd-0ab389d40b93",
+            "AmplifyAppId": "d10kjjujvbuc43"
+        },
+        "categories": {
+            "auth": {
+                "udnabackendbe02c040": {},
+                "userPoolGroups": {}
+            },
+            "function": {
+                "buyExamBillet": {},
+                "buyExamCreditCard": {},
+                "getExams": {},
+                "udnabackendbe02c040": {},
+                "udnaBackend": {},
+                "AdminQueriesa746e85c": {}
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-udna-backend-dev-215550-authRole",
+            "UnauthRoleArn": "arn:aws:iam::959706618901:role/amplify-udna-backend-dev-215550-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::959706618901:role/amplify-udna-backend-dev-215550-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-udna-backend-dev-215550-deployment",
+            "UnauthRoleName": "amplify-udna-backend-dev-215550-unauthRole",
+            "StackName": "amplify-udna-backend-dev-215550",
+            "StackId": "arn:aws:cloudformation:us-east-1:959706618901:stack/amplify-udna-backend-dev-215550/c7d7a3d0-63b5-11ea-807e-121b58656156",
+            "AmplifyAppId": "d10kjjujvbuc43"
+        },
+        "categories": {
+            "auth": {
+                "udnabackendbe02c040": {}
+            },
+            "function": {
+                "buyExamBillet": {},
+                "buyExamCreditCard": {},
+                "getExams": {},
+                "udnabackendbe02c040": {},
+                "udnaBackend": {},
+                "AdminQueriesa746e85c": {}
+            }
+        }
+    }
+}

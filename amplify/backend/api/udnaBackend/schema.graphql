@@ -1,0 +1,118 @@
+type User @model @auth(
+    rules: [
+      { allow: owner },
+      { allow: groups, groups: ["backoffice"] }
+    ]) {
+  id: ID!
+  name: String!
+  email: String!
+  cellphone: String!
+  cpf: String!
+  restoreId: String
+  address: Address @connection(fields: ["id"])
+  nutritionalProfile: Boolean
+}
+
+type Address @model @auth(
+    rules: [
+      { allow: owner },
+      { allow: groups, groups: ["backoffice"] }
+    ]) {
+  id: ID!
+  zipCode: String!
+  street: String!
+  number: String!
+  complement: String
+  neighborhood: String!
+  city: String!
+  stateInitials: String!
+  stateName: String!
+}
+
+type Mutation {
+  buyExamBillet(user: UserInfo, address: AddressInfo, exam: ExamInfo): Billet @function(name: "buyExamBillet-${env}")
+  buyExamCreditCard(user: UserInfo, address: AddressInfo, exam: ExamInfo, card: CreditCardInfo): String @function(name: "buyExamCreditCard-${env}")
+}
+
+type Billet {
+  barCode: String!
+  url: String!
+}
+
+input UserInfo {
+  cpf: String!
+  name: String!
+  email: String!
+  cellphone: String!
+}
+
+input AddressInfo {
+  street: String!
+  complement: String
+  number: String!
+  neighborhood: String!
+  city: String!
+  stateInitials: String!
+  zipCode: String!
+}
+
+input ExamInfo {
+  id: String!
+  title: String!
+  price: String!
+}
+
+input CreditCardInfo {
+  number: String!
+  cvc: String!
+  expiry: String!
+  name: String!
+  installments: Int!
+}
+
+type Category @model @key(fields: ["id"]) {
+  id: ID!
+  name: String!
+  exams: [Exam] @connection(keyName: "byCategory", fields: ["id"])
+}
+
+type Exam @model @key(name: "byCategory", fields: ["categoryId"]) {
+  id: ID!
+  categoryId: ID!
+  title: String!
+  subtitle: String!
+  description: String!
+  price: String!
+  url: String
+}
+
+type Query {
+  getExams(username: String): [ExamData] @function(name: "getExams-${env}")
+}
+
+type ExamData {
+  id: String!
+  examId: String!
+  name: String!
+  price: String!
+  payment: String!
+  installments: Int!
+  status: String!
+  date: String!
+}
+
+type Kit @model {
+  id: ID!
+  categoryId: String!
+  examId: String!
+  owner: String
+  status: Status!
+}
+
+enum Status {
+  ACTIVATE
+  INSTOCK
+}
+
+
+

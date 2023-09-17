@@ -1,0 +1,226 @@
+diff --git a/node_modules/react-native/.DS_Store b/node_modules/react-native/.DS_Store
+new file mode 100755
+index 0000000..e69de29
+diff --git a/node_modules/react-native/.flowconfig b/node_modules/react-native/.flowconfig
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/LICENSE b/node_modules/react-native/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/.npmignore b/node_modules/react-native/Libraries/.npmignore
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h b/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTContainer.h b/node_modules/react-native/Libraries/ART/ARTContainer.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTGroup.h b/node_modules/react-native/Libraries/ART/ARTGroup.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTGroup.m b/node_modules/react-native/Libraries/ART/ARTGroup.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTNode.h b/node_modules/react-native/Libraries/ART/ARTNode.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTNode.m b/node_modules/react-native/Libraries/ART/ARTNode.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTRenderable.h b/node_modules/react-native/Libraries/ART/ARTRenderable.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTRenderable.m b/node_modules/react-native/Libraries/ART/ARTRenderable.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTSerializablePath.js b/node_modules/react-native/Libraries/ART/ARTSerializablePath.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTShape.h b/node_modules/react-native/Libraries/ART/ARTShape.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTShape.m b/node_modules/react-native/Libraries/ART/ARTShape.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTSurfaceView.h b/node_modules/react-native/Libraries/ART/ARTSurfaceView.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTSurfaceView.m b/node_modules/react-native/Libraries/ART/ARTSurfaceView.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTText.h b/node_modules/react-native/Libraries/ART/ARTText.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTText.m b/node_modules/react-native/Libraries/ART/ARTText.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ARTTextFrame.h b/node_modules/react-native/Libraries/ART/ARTTextFrame.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h b/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.m b/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTLinearGradient.h b/node_modules/react-native/Libraries/ART/Brushes/ARTLinearGradient.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTLinearGradient.m b/node_modules/react-native/Libraries/ART/Brushes/ARTLinearGradient.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.h b/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.m b/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTRadialGradient.h b/node_modules/react-native/Libraries/ART/Brushes/ARTRadialGradient.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTRadialGradient.m b/node_modules/react-native/Libraries/ART/Brushes/ARTRadialGradient.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTSolidColor.h b/node_modules/react-native/Libraries/ART/Brushes/ARTSolidColor.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/Brushes/ARTSolidColor.m b/node_modules/react-native/Libraries/ART/Brushes/ARTSolidColor.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/RCTConvert+ART.h b/node_modules/react-native/Libraries/ART/RCTConvert+ART.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/RCTConvert+ART.m b/node_modules/react-native/Libraries/ART/RCTConvert+ART.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/React-ART.podspec b/node_modules/react-native/Libraries/ART/React-ART.podspec
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ReactNativeART.js b/node_modules/react-native/Libraries/ART/ReactNativeART.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTGroupManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTGroupManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTGroupManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTGroupManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTShapeManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTShapeManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTShapeManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTShapeManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTSurfaceViewManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTSurfaceViewManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTSurfaceViewManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTSurfaceViewManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTTextManager.h b/node_modules/react-native/Libraries/ART/ViewManagers/ARTTextManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ART/ViewManagers/ARTTextManager.m b/node_modules/react-native/Libraries/ART/ViewManagers/ARTTextManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ActionSheetIOS/ActionSheetIOS.js b/node_modules/react-native/Libraries/ActionSheetIOS/ActionSheetIOS.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ActionSheetIOS/NativeActionSheetManager.js b/node_modules/react-native/Libraries/ActionSheetIOS/NativeActionSheetManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.h b/node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.h
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.m b/node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.m
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/ActionSheetIOS/React-RCTActionSheet.podspec b/node_modules/react-native/Libraries/ActionSheetIOS/React-RCTActionSheet.podspec
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Alert/Alert.js b/node_modules/react-native/Libraries/Alert/Alert.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Alert/NativeAlertManager.js b/node_modules/react-native/Libraries/Alert/NativeAlertManager.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Alert/RCTAlertManager.android.js b/node_modules/react-native/Libraries/Alert/RCTAlertManager.android.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Alert/RCTAlertManager.ios.js b/node_modules/react-native/Libraries/Alert/RCTAlertManager.ios.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Animated/examples/demo.html b/node_modules/react-native/Libraries/Animated/examples/demo.html
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Animated/examples/pic1.jpg b/node_modules/react-native/Libraries/Animated/examples/pic1.jpg
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Animated/examples/pic2.jpg b/node_modules/react-native/Libraries/Animated/examples/pic2.jpg
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Animated/examples/pic3.jpg b/node_modules/react-native/Libraries/Animated/examples/pic3.jpg
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Animated/examples/style.css b/node_modules/react-native/Libraries/Animated/examples/style.css
+old mode 100644
+new mode 100755
+diff --git a/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m b/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
+index 01aa75f..2a6e9a8 100644
+--- a/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
++++ b/node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m
+@@ -269,6 +269,8 @@ static NSUInteger RCTDeviceFreeMemory() {
+   if (_currentFrame) {
+     layer.contentsScale = self.animatedImageScale;
+     layer.contents = (__bridge id)_currentFrame.CGImage;
++  }else{
++    [super displayLayer:layer];
+   }
+ }
+ 
+diff --git a/node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm b/node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm
+index bd48f44..d243ed0 100644
+--- a/node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm
++++ b/node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm
+@@ -767,7 +767,7 @@ struct RCTInstanceCallback : public InstanceCallback {
+ #endif
+ }
+ 
+-- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules
++- (NSArray<RCTModuleData *> *)_initializeModules:(NSArray<Class> *)modules
+                                withDispatchGroup:(dispatch_group_t)dispatchGroup
+                                 lazilyDiscovered:(BOOL)lazilyDiscovered
+ {
+diff --git a/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm b/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm
+index 3cb73b5..e4a14b4 100644
+--- a/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm
++++ b/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm
+@@ -297,7 +297,7 @@ static Class getFallbackClassFromName(const char *name)
+           @"%@ has no setter or ivar for its bridge, which is not "
+            "permitted. You must either @synthesize the bridge property, "
+            "or provide your own setter method.",
+-          RCTBridgeModuleNameForClass(module));
++          RCTBridgeModuleNameForClass(Class(module)));
+     }
+   }
+ 
+diff --git a/node_modules/react-native/scripts/.packager.env b/node_modules/react-native/scripts/.packager.env
+new file mode 100644
+index 0000000..361f5fb
+--- /dev/null
++++ b/node_modules/react-native/scripts/.packager.env
+@@ -0,0 +1 @@
++export RCT_METRO_PORT=8081

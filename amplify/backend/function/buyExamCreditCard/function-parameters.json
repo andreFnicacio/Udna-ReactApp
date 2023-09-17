@@ -1,0 +1,28 @@
+{
+    "permissions": {
+        "auth": {
+            "udnabackendbe02c040": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "api": {
+            "udnaBackend": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "function": {
+            "buyExamBillet": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}

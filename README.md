@@ -1,30 +1,30 @@
 # udna-app-react
-Repositório principal do aplicativo uDNA
+uDNA app main repository
 
-## Configurando seu ambiente
+## Setup your environment 
 
 https://react-native.rocketseat.dev/
 
-## Instalação
+## Installation
 
 ```sh
-npm install
-cd ios && pod install && cd ..
+  npm install
+  cd ios && pod install && cd ..
 ```
 
-## Desenvolvimento Local
+## Local developement
 
-### Iniciar o aplicativo
+### Start the app
 
 ```sh
-# Iniciar o React Native
-npm run start
+  # RN start
+  npm run start
 
-# Executar no simulador iOS
-npm run ios
+  # Run on iOs simulator
+  npm run ios
 
-# Executar no emulador Android
-npm run android
+  # Run on Android emulator
+  npm run android
 ```
 
 ## GitFlow
@@ -33,25 +33,23 @@ https://docs.google.com/presentation/d/1Ngb77xi64QJLaw8xK84NgC0zz-y5-WhNLx46pfGc
 
 ## Storybook
 
-Para garantir que todos os comportamentos dos componentes estejam preenchidos, estamos usando o Storybook. Você pode executar ``yarn ios-storybook`` para o iOS ou ``yarn android-storybook`` para o ANDROID, e isso por si só mudará o aplicativo para o navegador do Storybook.
+To ensure all components behavior are been filled out, we are using Storybook. You can run ``yarn ios-storybook`` for IOS or ``yarn android-storybook`` for ANDROID and that all by itself, this will change the App for the Storybook Navigator.
 
-### Como criar uma história:
+### How to create a Story:
 
-Cada arquivo de história deve e deve ser declarado na pasta raiz do componente e com o nome dele (por exemplo:. ``MyComponent.stories.tsx``)
+Each file story should and must be declared inside the root folder of the component and with his name (eg:. ```MyComponent.stories.tsx```)
 
-### Como ver minha história no navegador:
+### How to see my Story in the navigator:
 
-Depois de criar uma nova história, você precisa executar ``yarn storybook`` (não é necessário manter esse comando em andamento, é apenas importante executá-lo para que o carregador de histórias seja carregado). Depois que o arquivo ``storyLoader.js`` for carregado, você poderá ver sua história no navegador do Storybook.
+Once you create a brand new story, you need to run ```yarn storybook``` (Is not needed to keep this command ongoing, is just important to run so the storyLoader is loaded). Once the ```storyLoader.js``` is loaded, you'll be able to see your story in the Storybook Navigator.
 
-## Ícones
+
+## Icons
 https://oblador.github.io/react-native-vector-icons/
 
-## Depurador
+## Debugger
 
 [Reactotron](https://github.com/infinitered/reactotron)
 
-Configuração do Reactotron para Android:
+Configuração Reactotron Android:
 adb reverse tcp:9090 tcp:9090
-```
-
-Se você tiver alguma dúvida adicional ou precisar de mais assistência, por favor, fique à vontade para perguntar!
